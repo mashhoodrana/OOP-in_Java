@@ -1,3 +1,5 @@
+package Properties;
+
 class Rectangle
 {
     private double length; 
