@@ -5,11 +5,6 @@ class Cellphone
 
     public Cellphone() {} //Constructors
 
-    public void setPhone(int ph)
-    {
-        phno=ph;
-    }
-
     public int getPhone()
     {
         return phno;
@@ -64,10 +59,11 @@ class Smartphone extends Cellphone //Inheritance
 public class Program2 {
     public static void main(String[] args) {
         Cellphone cp = new Cellphone();
-        cp.setPhone(99191);
         System.out.println(cp.getPhone());
 
         Smartphone sp = new Smartphone();
+        sp.phno = 991911;
+        System.out.println(sp.getPhone());
         System.out.println(sp.call());
         System.out.println(sp.sms());
         System.out.println(sp.savedContact());
