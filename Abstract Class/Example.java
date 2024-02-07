@@ -1,10 +1,10 @@
-abstract class Shape
+abstract class Shapes
 {
-    abstract public double perimeter();
     abstract public double area();
+    abstract public double perimeter();
 }
 
-class Circle extends Shape
+class Circle extends Shapes
 {
     double radius=9.34;
 
@@ -20,11 +20,11 @@ class Circle extends Shape
     }
 }
 
-class Rectangle extends Shape
+class Rectangle extends Shapes
 {
     double length;
     double breadth;
-
+   
     public double perimeter()
     {
         return 2 * (length + breadth);
@@ -38,7 +38,7 @@ class Rectangle extends Shape
 
 public class Example {
     public static void main(String[] args) {
-        Shape sh; //if reference is of parent class then only those method can be called which are in parent class
+        Shapes sh; //if reference is of parent class then only those method can be called which are in parent class
         sh = new Circle();
         System.out.println("Perimeter of Circle: " + sh.perimeter() + "\nArea of the Circle: "+sh.area());
         sh = new Rectangle();
@@ -46,3 +46,4 @@ public class Example {
         
     }  
 }
+ 
