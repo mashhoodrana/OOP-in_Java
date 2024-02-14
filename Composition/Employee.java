@@ -1,3 +1,5 @@
+import Interfaces.Customer;
+
 class Employee1 {
     private int id;
     private String name;

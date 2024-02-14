@@ -27,7 +27,7 @@ class FederalUni extends Hec
 
     public FederalUni(int a, int b) //to call the parametrized constructors of parent class super is used..
     {
-        super(a);
+        super(a); 
         System.out.println("Child "+b);
     }
 }

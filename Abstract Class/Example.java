@@ -8,7 +8,6 @@ class Circle extends Shapes
 {
     double radius=9.34;
 
-
     public double perimeter()
     {
         return 2 * Math.PI * radius;
@@ -24,7 +23,7 @@ class Rectangle extends Shapes
 {
     double length;
     double breadth;
-   
+
     public double perimeter()
     {
         return 2 * (length + breadth);
@@ -43,7 +42,7 @@ public class Example {
         System.out.println("Perimeter of Circle: " + sh.perimeter() + "\nArea of the Circle: "+sh.area());
         sh = new Rectangle();
         System.out.println("Perimeter of Rectangle: " + sh.perimeter() + "\nArea of the Rectangle: "+sh.area());
-        
+
     }  
 }
- 
+
