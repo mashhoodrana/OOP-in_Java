@@ -19,7 +19,7 @@ interface ICamera{
     void record();
 }
 
-interface IMusicPlayer
+interface IMusicPlayer 
 {
     void play();
     void stop();
