@@ -49,7 +49,7 @@ class Rectangle
 
 }
 
-public class RectangleTest {
+public class Rectangles {
     public static void main(String[] args)
     {
         Rectangle r = new Rectangle();
