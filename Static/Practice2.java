@@ -15,7 +15,7 @@ class one extends finalas {  // can not extend from a final class
     }
 }
 
-public class finals {
+public class Practice2 {
     public static void main(String[] args) {
         
     }
