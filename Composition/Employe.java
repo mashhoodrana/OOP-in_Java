@@ -71,7 +71,7 @@ class Address {
 
 }
 
-public class Employee {
+public class Employe {
     public static void main(String[] args) {
         Address postalAddress = new Address("House No 4, Block-A", "Model Town", "Multan");
 
