@@ -32,7 +32,7 @@ class Store {
 
 }
 
-public class Challenge {
+public class Program {
     public static void main(String[] args) {
         Store s = new Store();
         Customer c1 = new Customer("Mashhood");
