@@ -1,9 +1,9 @@
-class TV {
+class tv {
     int channel = 1;
     int volume_level = 1;
     boolean on = false;
 
-    public TV() {
+    public tv() {
 
     }
 
@@ -42,7 +42,7 @@ class TV {
 
 public class Example1 {
     public static void main(String[] args) {
-        TV tv = new TV();
+        tv tv = new tv();
         tv.turnOn();
         tv.setChannel(50);
         tv.channelDown();
