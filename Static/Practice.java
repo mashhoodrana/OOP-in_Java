@@ -1,7 +1,7 @@
 package Static;
 
 
-class hondaCity {
+class HondaCity {
     static long x = 10;
     int a, b;
 
@@ -21,7 +21,7 @@ class hondaCity {
 
 public class Practice {
     public static void main(String[] args) {
-        hondaCity h1 = new hondaCity();
+        HondaCity h1 = new HondaCity();
         
         System.out.println(h1.x);
         h1.x=100;
