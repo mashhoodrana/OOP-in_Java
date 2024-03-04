@@ -25,6 +25,8 @@ class Ist extends FederalUni
 public class Example {
     public static void main(String[] args)
     {
-        Ist uni = new Ist();
+        Hec uni_1 = new Hec();
+        Ist uni_2 = new Ist();
+        FederalUni uni_3 = new FederalUni();
     }
 }
