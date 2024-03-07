@@ -42,11 +42,11 @@ class Cuboid extends Rectangle
 public class Example4 {
     public static void main(String[] args)
     {
-        Rectangle r = new Rectangle(10, 20);
-        r.display();
+        Rectangle r1 = new Rectangle(10, 20);
+        r1.display();
 
-        Cuboid c = new Cuboid(10, 10, 10);
-        c.display1();
+        Cuboid c1 = new Cuboid(10, 10, 10);
+        c1.display1();
     }
 }
 
